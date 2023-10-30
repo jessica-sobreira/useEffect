@@ -14,8 +14,9 @@ export const Navbar = styled.nav`
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
-
-
+    .logo-gatinho {
+        height: 5em;
+        margin-left: 2em;
+    }
 
     `
-    
