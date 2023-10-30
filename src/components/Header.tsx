@@ -1,9 +1,10 @@
 import { Navbar } from './style';
+import logogato from '../assets/gatinho.png';
 
 export function Header() {
     return (
         <Navbar>
-        <img src="./src/assets/gatinho.png" alt="Logo" className='logo'/>
+        <img src={logogato} className='logo-gatinho' />
         <h1>Aprendendo useEffect com Gatinhos</h1>    
        </Navbar>
     );
